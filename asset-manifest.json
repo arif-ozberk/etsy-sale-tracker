@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/etsy-sale-tracker/static/css/main.6de53ec6.css",
+    "main.js": "/etsy-sale-tracker/static/js/main.9f202f44.js",
+    "index.html": "/etsy-sale-tracker/index.html",
+    "main.6de53ec6.css.map": "/etsy-sale-tracker/static/css/main.6de53ec6.css.map",
+    "main.9f202f44.js.map": "/etsy-sale-tracker/static/js/main.9f202f44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6de53ec6.css",
+    "static/js/main.9f202f44.js"
+  ]
+}
