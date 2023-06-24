@@ -1,0 +1,31 @@
+.profit-object {
+    background-color:#333232;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 15px;
+    border: 2px solid #e9e9e9;
+    height: fit-content;
+    height: 100%;
+}
+
+.profit-object p {
+    border-bottom: 1px solid rgba(112, 112, 112, 0.432);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: #bebdbd;
+}
+
+.profit {
+    color: #04b404;
+}
+
+.loss {
+    color: #df0707;
+}

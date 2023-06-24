@@ -1,0 +1,5 @@
+.sales-container {
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 25px;
+}

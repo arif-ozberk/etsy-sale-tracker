@@ -1,0 +1,60 @@
+.money-object {
+    background-color:  #333232;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 15px;
+    border: 2px solid #e9e9e9;
+    height: fit-content;
+    min-height: 70px;
+}
+
+.money-object p {
+    border-bottom: 1px solid rgba(112, 112, 112, 0.432);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: #bebdbd;
+}
+
+.money-object h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    width: 80px;
+    word-wrap: normal;
+    text-align: center;
+}
+
+.total {
+    min-width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #e9e9e9;
+}
+
+.cost {
+    min-width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #c90b0b;
+}
+
+.balance {
+    min-width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #e9e9e9;
+}
+
+@media(max-width: 550px) {
+    .money-object {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+}
